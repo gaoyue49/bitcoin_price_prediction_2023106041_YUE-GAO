@@ -1,15 +1,14 @@
-# Bitcoin Price Prediction Using NLP Techniques
-
-This project is a mid-term assignment for an NLP course. It uses N-gram and TF-IDF models to analyze Bitcoin-related text data.
-
+# Bitcoin Price Prediction - NLP Midterm Assignment
 ## Overview
-- **Data**: 1100 text entries (100 Reddit posts, 1000 Twitter tweets).
-- **Experiments**:
-  - N-gram: Next word prediction.
-  - TF-IDF: Similar sentence recommendation.
-- **Results**: Simulated due to hardware limitations (N-gram accuracy: 80%, TF-IDF similarity: 0.85).
+This project is a midterm assignment for the 2025 NLP course. It implements N-gram and TF-IDF models to perform next-word prediction and similar sentence recommendation on Bitcoin-related Reddit and Twitter data.
 
-## Files
-- `notebooks/collect_data.ipynb`: Main experiment code.
-- `figures/ngram_tfidf_comparison.png`: Visualization of results.
-- `data/`: Dataset files.
+## Structure
+- `notebooks/collect_data_final.ipynb`: Main notebook with data processing, experiments, and visualization.
+- `data/`: Contains `reddit_posts.csv` (100 posts) and `tweets.csv` (1000 tweets).
+- `figures/`: Contains visualization (`ngram_tfidf_comparison.png`).
+- `report.pdf`: Final report (to be added).
+
+## How to Run
+1. Clone the repository.
+2. Install dependencies: `pip install pandas numpy sklearn matplotlib vaderSentiment`.
+3. Run `collect_data_final.ipynb` in Jupyter Notebook or Colab.
